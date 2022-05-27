@@ -11,7 +11,7 @@ from payment;
 /*Do a group by on the converted column and the count */
 select  
 case 
-when cast(strftime("%w", payment_date)  as INTEGER)< 5 then "weekday"
+when cast(strftime("%w", payment_date)  as INTEGER) in (1,2,3,4,5) then "weekday"
 else "weekend"
 end as week_end_ind, count(*) as cnt
 from payment
