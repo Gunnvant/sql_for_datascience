@@ -4,7 +4,7 @@ limit 5;
 /* Bucket the data into weekday and weekend*/
 select payment_date, strftime("%w", payment_date) as dayweek,
 case 
-when cast(strftime("%w", payment_date)  as INTEGER)< 5 then "weekday"
+when cast(strftime("%w", payment_date)  as INTEGER) in (1,2,3,4,5) then "weekday"
 else "weekend"
 end as week_end_ind
 from payment;
