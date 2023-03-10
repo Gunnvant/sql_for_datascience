@@ -13,7 +13,7 @@ You will be using the dataset named [sqlite-sakila.db](./data/sqlite-sakila.db).
 
 3. The accounts department, is thinking of comping up with a different way of accounting for the business costs. To be able to do that they need to find out the number of movies rented at different rental price points. Write an sql query so that this crucial input can be provided to the accounts department.
 
-4. The marketing team wants to understand how number of movies is spread across movie ratings. Are there more movies whose rating is 4+ or are there more movies whose rating is between 2-3. Can you help them?
+4. The marketing team wants to understand how number of movies is spread across movie ratings. Can you help them?
 
 5. The marketing team now also wants to know how ratings are distributed across stores. The team needs to know the distribution of ratings for each store in the dataset. Write a sql query to help solve this problem.
 
